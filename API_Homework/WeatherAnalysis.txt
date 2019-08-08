@@ -1,0 +1,11 @@
+# API_Homework
+Pandas API Homework
+
+
+Weather Analysis
+
+1)   It becomes clear that as you approach the equator from either pole the temperatures begin to rise.  While most of the highest temps occur above 20 degrees of latitude this may be due to location of the cities at the time of data collection. As you can see from the Cities image many of the equatorial cities where data was taken from are in the eastern hemisphere. Whereas cities where we see the highest temps in the northern hemisphere seem to be centralized around the western hemisphere in central America. 
+
+2)	While humidity levels are a little scattered we do see that of the equatorial cities we have data for none have humidity below about 30-35%. There is also in interesting trend that cities closer to the northern and southern extremes also have higher humidity than cities about 20 degrees removed form the equator on either side.
+
+3)	Cloud cover also seems to be scattered however the northern hemisphere seems to have more cities with high cloud density at least at the time of data recording. The interesting thing here though is that you see that there are many cities north of 40 degrees with humidity but no cloud cover. Indicating that these areas are just humid by nature. Something that we know from living in Chicago but is now represented in data.

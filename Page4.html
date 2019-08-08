@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Weather API Project</title>
+
+
+  <link rel="stylesheet" href = "C:\Users\aotal\Desktop\Classwork\Web-HW\Style1.css">
+
+</head>
+<ul>
+        <li style = "font-size: 20pt; font-weight: bold"><a href="index.html">Lattitude</a></li>
+        <li style="float:right"><a href="PageData.html">Data</a></li>
+        <li style="float:right"><a href="PageComp.html">Comparisons</a></li>
+        <li style="float:right" class= "dropdown">
+            <a href="PagePlots.html" class="dropbtn">Plots</a>
+            <div class="dropdown-content">
+                <a href = "page1.html">Home</a>
+                <a href="page2.html">Temperature</a>
+                <a href="page3.html">Humidity</a>
+                <a href="page5.html">Wind</a>
+            </div>
+        </li>
+      </ul>
+<body>
+    <div style="border: 1px solid aqua; background: lightgrey; margin-left: 180px; margin-right:180px; margin-top:75px;" class="clearfix">
+        <h1>Lattitude Vs Clouds</h1>
+        <hr>
+        <img style="float:left; padding: 10px" src="API_Homework/Images/Clouds.png" alt="Humidity" height="450px" class = "responsive" >
+        <p>For this visualization we use matplotlib to quickly create a scatter plot based on the data given. Where each point is 
+          plotted first by the Lattitude and then by the density of the clouds at the time the data was pulled from the API.
+        </p>
+        <p></p>
+        <p>Here the data runs the gamut for each latitude. One of the interesting things is that it seems as if there is a tendency 
+          to report the cloud cover with certian percentages more often. 0%, 20%, 40%, 75% and 100% seem to be the most common ranges used
+          to describe how cloudy an area is.
+        </p>
+  <script src="js/scripts.js"></script>
+  <div class= "footer">A project by Alex Talento</div>
+</body>
+</html>

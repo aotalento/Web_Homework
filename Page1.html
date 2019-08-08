@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weather API Project</title>
+    
+    <link rel="stylesheet" href = "C:\Users\aotal\Desktop\Classwork\Web-HW\Style1.css">
+    <!-- <link rel="stylesheet" href="C:\Users\aotal\Desktop\Classwork\Web-HW\Style.css"> -->
+</head>
+<ul>
+        <li style = "font-size: 20pt; font-weight: bold"><a href="page1.html">Latitude</a></li>
+        <li style="float:right"><a href="PageData.html">Data</a></li>
+        <li style="float:right"><a href="PageComp.html">Comparisons</a></li>
+        <li style="float:right" class= "dropdown">
+            <a href="PagePlots.html" class="dropbtn">Plots</a>
+            <div class="dropdown-content">
+                <a href = "page2.html">Temperature</a>
+                <a href="page3.html">Humidity</a>
+                <a href="page4.html">Clouds</a>
+                <a href="page5.html">Wind</a>
+            </div>
+        </li>
+      </ul>
+<body>
+        <div1 class="responsive">
+                <h1 style="position:absolute; Top:0%">X vs Latitude</h1>
+                <hr style="border: 2px solid black; ">
+                <img style="float:left; padding: 10px" src="API_Homework/Images/Cities.png" alt="Cities Pulled" class = "responsive">
+                <p>This project was built to demonstrate with visual data that areas along the equator experience
+                    higher temperatures than areas futher North or South.
+                </p>
+                <p></p>
+                <p>
+                    The first step was pulling a random list of cities from a python library set up to select cities at random.
+                    After that pandas was used to make repeated API calls to a weather API site using the provided cords to check 
+                    current weather at that location.             
+                </p>
+                <p>
+                    Then that data was used to plot latitude against various factors to determing if there were any other corrorlations.
+                    As the map on the left demonstrates, here Latitude was plotted against the Longitude of each city to give the viewer an 
+                    idea of the locations of each city used and to get the viewer accustomed to the idea that Latitude would be plotted on the 
+                    Y axis so as to mirror how we view the globe generally.
+                </p>
+                </div1>
+        <div2 class = "responsive">
+            <h1 style="position:absolute; Top:0%; z-index: 1;">Available Plots</h1>
+                <hr style ="border: 2px solid black">
+                <div class = "row">
+                    <div class = "column">
+                            <p align="center">Temperature</p>
+                            <a href = "page2.html" style="z-index:2">
+                                    <img src="API_Homework/Images/Temp.png" alt="Temp" class="responsive">
+                                </a>
+                                <p align="center">Clouds</p>
+                                <a href = "page4.html">
+                                  <img src="API_Homework/Images/Clouds.png" alt="Clouds" class="responsive">
+                              </a>
+                            </div>
+                            <div class = "column">
+                                <p align="center">Humidity</p>
+                              <a href = "page3.html">
+                                <img src="API_Homework/Images/Humidity.png" alt="Humidity" class="responsive" height="500px" >  
+                              </a>
+                              <p align="center">Wind</p>
+                              <a href = "page5.html">
+                                <img src="API_Homework/Images/Wind.png" alt="Wind" class="responsive">
+                              </a>
+                    </div>                    
+                </div>
+        </div2>
+        <div class= "footer">A project by Alex Talento</div>
+</body>
+</html>
